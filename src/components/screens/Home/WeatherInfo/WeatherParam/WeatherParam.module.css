@@ -1,0 +1,14 @@
+.bodyParam {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 28px;
+}
+.value {
+    font-size: 28px;
+    font-weight: 500;
+}

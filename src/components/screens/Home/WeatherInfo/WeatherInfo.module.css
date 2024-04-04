@@ -1,0 +1,21 @@
+.itemBody {
+  background-color: #222831;
+  width: 550px;
+  height: 623px;
+  padding: 45px 50px 62px 57px;
+  border-radius: 0px 25px 25px 0px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+.paramWrap {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+.DayItemBody {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}

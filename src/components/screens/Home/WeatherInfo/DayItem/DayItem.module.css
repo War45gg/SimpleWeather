@@ -1,0 +1,27 @@
+.itemBody {
+    background-color: #272E37;
+    min-width: 104px;
+    max-height: 168px;
+    padding: 15px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    border-radius: 10px;
+    transition: 0.2s ease-in-out;
+}
+.itemBody * {transition: 0.2s ease-in-out;}
+.title {
+    font-size: 20px;
+    font-weight: 400;
+}
+.tempirature {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.itemBody:hover,.dayItemActive{background-color: #fff;}
+.itemBody:hover *,.dayItemActive *{
+    color:#000;
+    fill:#000
+}
